@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_links",
+  "info": {
+    "displayName": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": ["Primary", "Secondary"]
+    }
+  }
+}

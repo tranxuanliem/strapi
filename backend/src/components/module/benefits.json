@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_module_benefits",
+  "info": {
+    "displayName": "benefits"
+  },
+  "options": {},
+  "attributes": {
+    "numberOfColumns": {
+      "type": "enumeration",
+      "enum": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+    },
+    "textAlign": {
+      "type": "enumeration",
+      "enum": ["left", "right", "center"]
+    },
+    "benefit": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.benefit"
+    }
+  }
+}

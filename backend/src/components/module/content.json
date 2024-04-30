@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_module_contents",
+  "info": {
+    "displayName": "content",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos",
+        "images"
+      ]
+    },
+    "textAlign": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "center"
+      ]
+    },
+    "reverse": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

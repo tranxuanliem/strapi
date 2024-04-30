@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_elements_benefit",
+  "info": {
+    "displayName": "benefit",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "size": {
+      "type": "enumeration",
+      "enum": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+    },
+    "textAlign": {
+      "type": "enumeration",
+      "enum": ["left", "right", "center"]
+    },
+    "icon": {
+      "type": "customField",
+      "customField": "plugin::react-icons.icon"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_module_heroes",
+  "info": {
+    "displayName": "hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "videos"]
+    },
+    "backgroundImage": {
+      "allowedTypes": ["videos", "images"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
